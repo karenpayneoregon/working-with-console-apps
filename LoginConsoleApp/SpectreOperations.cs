@@ -97,11 +97,5 @@ namespace LoginConsoleApp
             AnsiConsole.Write(rule);
             AnsiConsole.WriteLine();
         }
-
-        [ModuleInitializer]
-        public static void Init()
-        {
-            Console.Title = "Code sample - Spectre.Console/protobuf-net login";
-        }
     }
 }
