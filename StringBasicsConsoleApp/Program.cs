@@ -14,7 +14,7 @@ namespace StringBasicsConsoleApp
         }
         static void Main(string[] args)
         {
-            StringManipulation.ExtractPartOfString();
+            StringManipulation.TrimmingWhitespace();
             Console.ReadLine();
         }
 
@@ -27,8 +27,6 @@ namespace StringBasicsConsoleApp
             StringJoin.ExtensionsJoining();
             Console.WriteLine();
             StringJoin.JoinInList();
-           
-            
         }
 
         /// <summary>
@@ -36,8 +34,7 @@ namespace StringBasicsConsoleApp
         /// </summary>
         private static void ConcatenationStrings()
         {
-            NoviceConcatenation();
-            Console.WriteLine();
+
             RecommendedConcatenation();
 
             Console.WriteLine();

@@ -10,7 +10,6 @@ namespace LoginConsoleApp
     {
         static void Main(string[] args)
         {
-            Operations.SerializeUsers();
 
 
             if (Operations.FileCheck())

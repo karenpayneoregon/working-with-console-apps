@@ -9,12 +9,13 @@ namespace DateTimeConsoleApp
         static void Main(string[] args)
         {
             var timeString = "13:30";
+
             string format = "Valid format is HH:mm";
             if (!string.IsNullOrWhiteSpace(timeString))
             {
                 var result = DateTime.TryParseExact(timeString, "HH:mm",
                     CultureInfo.InvariantCulture, DateTimeStyles.None, out var time) ?
-                    time.ToShortTimeString() :
+                    time.ToString() :
                     format;
 
                 Console.WriteLine(result);

@@ -92,5 +92,8 @@ namespace NumbersBasicConsoleApp.Extensions
                 .ToArray()
                 .Where(item => item.IsInteger == false)
                 .Select(item => item.Index).ToArray();
+
+
+ 
     }
 }

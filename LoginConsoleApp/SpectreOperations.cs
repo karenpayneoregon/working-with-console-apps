@@ -11,13 +11,16 @@ namespace LoginConsoleApp
     {
         public static string AskName()
         {
-            var name = AnsiConsole.Ask<string>("[thistle1]Login name[/]?");
+            var name = AnsiConsole.Ask<string>("[springgreen2_1]Login name[/]?");
+            var birthdate = AnsiConsole.Ask<DateTime>("What is your birthDate");
             return name;
         }
+
+        public static DateTime BirthDate =>  AnsiConsole.Ask<DateTime>("What is your birthDate");
         public static string AskPassword()
         {
             return AnsiConsole.Prompt(
-                new TextPrompt<string>("[thistle1]Password[/]?")
+                new TextPrompt<string>("[springgreen2_1]Password[/]?")
                     .PromptStyle("grey50")
                     .Secret());
         }

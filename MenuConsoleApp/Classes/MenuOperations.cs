@@ -13,7 +13,7 @@ namespace MenuConsoleApp.Classes
         {
             SelectionPrompt<Categories> menu = new()
             {
-                HighlightStyle = new Style(Color.DodgerBlue1, Color.Black, Decoration.None)
+                HighlightStyle = new Style(Color.Aquamarine1, Color.Black, Decoration.None)
             };
 
             menu.Title("Select a [B]category[/]");
@@ -69,7 +69,7 @@ namespace MenuConsoleApp.Classes
                 }
                 else
                 {
-                    MenuOperations.AskConfirmation(product);
+                    AskConfirmation(product);
                     productContinue = false;
                 }
 

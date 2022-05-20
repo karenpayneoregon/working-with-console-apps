@@ -11,6 +11,8 @@ for (int index = 1; index < 4; index++)
     WriteLine($"Passing {index} gives {GetValue(index)}");
 }
 
+
+
 ReadLine();
 
 
