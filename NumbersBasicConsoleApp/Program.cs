@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
 
 namespace NumbersBasicConsoleApp
@@ -26,6 +27,12 @@ namespace NumbersBasicConsoleApp
             }
 
             Console.ReadLine();
+        }
+
+        [ModuleInitializer]
+        public static void Init()
+        {
+            Console.Title = "Code sample";
         }
     }
 }
