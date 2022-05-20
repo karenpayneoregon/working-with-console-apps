@@ -46,6 +46,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Help you learn csharp", "He
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringBasicsConsoleApp", "StringBasicsConsoleApp\StringBasicsConsoleApp.csproj", "{345EB756-0EEE-4BB2-B832-4BC9A2E51FFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnityFrameworkStarter", "EnityFrameworkStarter\EnityFrameworkStarter.csproj", "{6B6976DA-2453-46BD-BDBB-E6AA638D8C03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -104,6 +106,10 @@ Global
 		{345EB756-0EEE-4BB2-B832-4BC9A2E51FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{345EB756-0EEE-4BB2-B832-4BC9A2E51FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{345EB756-0EEE-4BB2-B832-4BC9A2E51FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B6976DA-2453-46BD-BDBB-E6AA638D8C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B6976DA-2453-46BD-BDBB-E6AA638D8C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B6976DA-2453-46BD-BDBB-E6AA638D8C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B6976DA-2453-46BD-BDBB-E6AA638D8C03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,6 +129,7 @@ Global
 		{82719F06-8691-4451-A1E9-EC5AFCA95CF6} = {2D85A314-DF37-4AF9-AA59-00EDA3BAA9D6}
 		{50DACEB4-90F1-4F67-8888-4E001FE71BE5} = {C8FCFDA5-3377-4740-B679-91C025C2EA73}
 		{345EB756-0EEE-4BB2-B832-4BC9A2E51FFE} = {50DACEB4-90F1-4F67-8888-4E001FE71BE5}
+		{6B6976DA-2453-46BD-BDBB-E6AA638D8C03} = {8278456D-9B14-4D20-832B-059CE399D372}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2E6FA709-996A-4CFF-9D99-E33BDBB5BC0E}
