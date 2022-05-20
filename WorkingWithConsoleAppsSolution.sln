@@ -40,13 +40,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonLibrary", "CommonLibr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Advance", "Advance", "{2D85A314-DF37-4AF9-AA59-00EDA3BAA9D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gui_simple", "gui_simple\gui_simple.csproj", "{82719F06-8691-4451-A1E9-EC5AFCA95CF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gui_simple", "gui_simple\gui_simple.csproj", "{82719F06-8691-4451-A1E9-EC5AFCA95CF6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Help you learn csharp", "Help you learn csharp", "{50DACEB4-90F1-4F67-8888-4E001FE71BE5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringBasicsConsoleApp", "StringBasicsConsoleApp\StringBasicsConsoleApp.csproj", "{345EB756-0EEE-4BB2-B832-4BC9A2E51FFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnityFrameworkStarter", "EnityFrameworkStarter\EnityFrameworkStarter.csproj", "{6B6976DA-2453-46BD-BDBB-E6AA638D8C03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnityFrameworkStarter", "EnityFrameworkStarter\EnityFrameworkStarter.csproj", "{6B6976DA-2453-46BD-BDBB-E6AA638D8C03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersBasicConsoleApp", "NumbersBasicConsoleApp\NumbersBasicConsoleApp.csproj", "{A8AFE8AB-109D-4E0D-A664-EB374B0E4F78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -110,6 +112,10 @@ Global
 		{6B6976DA-2453-46BD-BDBB-E6AA638D8C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B6976DA-2453-46BD-BDBB-E6AA638D8C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B6976DA-2453-46BD-BDBB-E6AA638D8C03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8AFE8AB-109D-4E0D-A664-EB374B0E4F78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8AFE8AB-109D-4E0D-A664-EB374B0E4F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8AFE8AB-109D-4E0D-A664-EB374B0E4F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8AFE8AB-109D-4E0D-A664-EB374B0E4F78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -130,6 +136,7 @@ Global
 		{50DACEB4-90F1-4F67-8888-4E001FE71BE5} = {C8FCFDA5-3377-4740-B679-91C025C2EA73}
 		{345EB756-0EEE-4BB2-B832-4BC9A2E51FFE} = {50DACEB4-90F1-4F67-8888-4E001FE71BE5}
 		{6B6976DA-2453-46BD-BDBB-E6AA638D8C03} = {8278456D-9B14-4D20-832B-059CE399D372}
+		{A8AFE8AB-109D-4E0D-A664-EB374B0E4F78} = {50DACEB4-90F1-4F67-8888-4E001FE71BE5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2E6FA709-996A-4CFF-9D99-E33BDBB5BC0E}
