@@ -39,8 +39,7 @@ namespace NumbersBasicConsoleApp.Extensions
 
             var intArray = Array
                 .ConvertAll(sender,
-                    (input) => new
-                    {
+                    (input) => new {
                         IsInteger = int.TryParse(input, out var integerValue),
                         Value = integerValue
                     })
@@ -72,7 +71,8 @@ namespace NumbersBasicConsoleApp.Extensions
         public static int[] ToIntegerPreserveArray(this List<string> sender)
         {
 
-            var intArray = Array.ConvertAll(sender.ToArray(), (input) =>
+            var intArray = Array.ConvertAll(sender.ToArray(), 
+                (input) =>
             {
                 int.TryParse(input, out var integerValue);
                 return integerValue;
@@ -87,8 +87,16 @@ namespace NumbersBasicConsoleApp.Extensions
         public static int[] GetNonIntegerIndexes(this List<string> sender) =>
             sender.Select(
                     (item, index) => int.TryParse(item, out var tResult) ?
-                        new { IsInteger = true, Index = index } :
-                        new { IsInteger = false, Index = index })
+                        new
+                        {
+                            IsInteger = true, 
+                            Index = index
+                        } :
+                        new
+                        {
+                            IsInteger = false, 
+                            Index = index
+                        })
                 .ToArray()
                 .Where(item => item.IsInteger == false)
                 .Select(item => item.Index).ToArray();

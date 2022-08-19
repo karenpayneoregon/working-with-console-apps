@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -27,6 +29,39 @@ namespace StringBasicsConsoleApp.Classes
             Console.WriteLine(monthList.JoinWith());
 
         }
+
+        public static void DataTableStuff()
+        {
+            DataTable table = new DataTable();
+            table.Columns.Add(new DataColumn()
+            {
+                ColumnName = "Id",
+                AutoIncrement = true,
+                AutoIncrementSeed = 10,
+                ColumnMapping = MappingType.Hidden
+            });
+
+            table.Columns.Add("First", typeof(string));
+            table.Columns.Add("Last", typeof(string));
+
+            table.Rows.Add( null,"Karen", "Payne");
+            table.Rows.Add( null,"Jon", "Smith");
+
+
+            foreach (DataRow row in table.Rows)
+            {
+                Debug.WriteLine(
+                    $"Id: {row.Field<int>("Id")}," +
+                    $"First: {row.Field<string>("First")}" +
+                    $"Last: {row.Field<string>("Last")}"
+                    );
+
+
+                Debug.WriteLine(string.Join(",", row.ItemArray));
+            }
+
+        }
+
 
         /// <summary>
         /// https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated

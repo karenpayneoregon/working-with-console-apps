@@ -26,7 +26,7 @@ namespace MarkOfTheWeb.Classes
 
             Console.WriteLine(help);
             Console.ReadLine();
-            Environment.Exit(-1);
+            //Environment.Exit(-1);
         }
 
         /// <summary>

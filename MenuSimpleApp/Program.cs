@@ -20,11 +20,10 @@ namespace MenuSimpleApp
 
                 if (menuItem.Id == -1)
                 {
-                    
+                   
                     AnsiConsole.Write(new FigletText("Bye").LeftAligned().Color(Color.Red));
                     ReadLineAsStringTimeout();
                     return;
-
                 }
                 else
                 {

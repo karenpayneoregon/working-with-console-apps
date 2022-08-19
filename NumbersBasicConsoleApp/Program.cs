@@ -11,8 +11,13 @@ namespace NumbersBasicConsoleApp
     {
         static void Main(string[] args)
         {
-            string[] lines1 = new[] {"2","4", "4" };
-            string[] lines2 = new[] {"2","w", null };
+            
+        }
+
+        private static void NumericArrays()
+        {
+            string[] lines1 = new[] { "2", "4", "4" };
+            string[] lines2 = new[] { "2", "w", null };
 
 
             if (!lines2.AllInt())
@@ -43,7 +48,7 @@ namespace NumbersBasicConsoleApp
 
             string userInput = Console.ReadLine();
 
-            if (int.TryParse(userInput, out var value))
+            if (decimal.TryParse(userInput, out var value))
             {
                 Console.WriteLine($"You entered {value}");
             }
@@ -51,6 +56,7 @@ namespace NumbersBasicConsoleApp
             {
                 Console.WriteLine($"{userInput} is not valid");
             }
+
 
             Console.ReadLine();
         }

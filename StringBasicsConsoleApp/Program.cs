@@ -14,7 +14,8 @@ namespace StringBasicsConsoleApp
         }
         static void Main(string[] args)
         {
-            StringManipulation.TrimmingWhitespace();
+            //StringManipulation.TrimmingWhitespace();
+            StringJoin.DataTableStuff();
             Console.ReadLine();
         }
 
